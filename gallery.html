@@ -14,14 +14,27 @@
       padding-top: 60px;
       font-size: 24px;
    }
+
+   .card__holder {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+   }
+
+   img {
+      width: 250px;
+   }
 </style>
 
 <body>
    <div class="wrapper">
       <a href="./index.html">Home page</a>
-      <img src="./img/user-4.png" alt="user-4">
-      <img src="./img/user-5.png" alt="user-5">
-      <img src="./img/user-6.png" alt="user-6">
+      <div class="card__holder">
+         <img src="./img/user-4.png" alt="user-4">
+         <img src="./img/user-5.png" alt="user-5">
+         <img src="./img/user-6.png" alt="user-6">
+      </div>
+
    </div>
 
 </body>
